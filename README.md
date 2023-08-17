@@ -19,3 +19,6 @@ make cppgd
     Supported output format:
     -oxyz        .xyz 
     -onpy        .npy    numpy data series files (output path should be folder)
+
+# aknoledgement
+npy.hpp is written by github user llohse (Leon Merten Lohse). Original file can be access at [here](https://github.com/llohse/libnpy/tree/master).

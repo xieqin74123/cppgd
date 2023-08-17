@@ -1,10 +1,10 @@
 # cppgd
-CPP version of Gdata programme
+CPP version of Gdata programme. Machine-learning-oriented data management and convertion for Gaussian output and Chargemol output
 
-# build guide
-make cppgd
+## Build guide
+    make cppgd
 
-# usage guide
+## Usage guide
     Usage: cppgd -i<input format> [<input option>] <input path> -o<output format> <output path> [options]
     
     You can also directly run this programme without any argument
@@ -20,5 +20,5 @@ make cppgd
     -oxyz        .xyz 
     -onpy        .npy    numpy data series files (output path should be folder)
 
-# acknowledgement
-npy.hpp is written by github user llohse (Leon Merten Lohse). Original file can be access at [here](https://github.com/llohse/libnpy/tree/master).
+## Acknowledgement
+npy.hpp is written by github user llohse (Leon Merten Lohse). Original page can be access [here](https://github.com/llohse/libnpy/tree/master).

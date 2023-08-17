@@ -5,7 +5,7 @@ CPP version of Gdata programme
 make cppgd
 
 # usage guide
-Usage: cppgd -i<input format> [<input option>] <input path> -o<output format> <output path> [options]
+    Usage: cppgd -i<input format> [<input option>] <input path> -o<output format> <output path> [options]
     
     You can also directly run this programme without any argument
     

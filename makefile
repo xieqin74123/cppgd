@@ -2,6 +2,8 @@ CXX = g++
 CXXFLAGS = -std=c++17
 COMPILE = $(CXX) $(CXXFLAGS)
 
+BUILD_FOLDER = build
+
 CPPGD_DPD = atom_class.o gdata_class.o molecule_class.o sup_class.o dictionary.o \
             gdata.o graph.o sup_functions.o \
 			tui.o tui_main.o

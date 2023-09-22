@@ -1,0 +1,52 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++ 生成test活动文件",
+            "command": "/usr/bin/g++",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-std=c++11",
+                "-g",
+                "${fileDirname}/test.cpp",
+                "${fileDirname}/gdata.cpp",
+                "${fileDirname}/sup_functions.cpp",
+                "-o",
+                "${workspaceFolder}/test"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "调试器生成的任务。"
+        },
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++ 生成cppgd活动文件",
+            "command": "/usr/bin/g++",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-std=c++11",
+                "-g",
+                "${fileDirname}/tui_main.cpp",
+                "${fileDirname}/tui.cpp",
+                "${fileDirname}/gdata.cpp",
+                "${fileDirname}/sup_functions.cpp",
+                "-o",
+                "${workspaceFolder}/cppgd"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "调试器生成的任务。"
+        }
+    ]
+}
